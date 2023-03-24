@@ -16,7 +16,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #a7e842;
 
 }
 
@@ -87,6 +87,7 @@ section {
 
 .home-img img {
     width: 25vw;
+ border-radius: 50%;
 
 }
 
