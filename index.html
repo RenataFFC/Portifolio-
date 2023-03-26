@@ -8,6 +8,16 @@
 
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ion icons link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Daisy Ui Links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
 
     <!-- Google Fonts -->
@@ -23,23 +33,29 @@
 </head>
 
 <body>
+
+    <!-- ********************************************** -->
+    <!--  Section Menu-->
+    <!-- ********************************************** -->
+
     <header class=" header">
         <a href="=#" class="logo">Portifólio</a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#Home" class="active">Home</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Projetos">Projetos</a>
-            <a href="#Contato">Contato</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#stacks">Stacks</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
 
     <!-- ********************************************** -->
-    <!--  Section  Home-->
+    <!--  Section Home-->
     <!-- ********************************************** -->
 
 
-    <section class="home" id="Home">
+    <section class="home" id="home">
 
         <div class="home-content">
             <h3>Olá, meu nome é</h3>
@@ -48,10 +64,10 @@
 
 
             <div class="social-media">
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/renataFFC"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/renatafernandesctba/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/renata_ffc/"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto: renatactba@hotmail.com "><i class='bx bx-envelope'></i></a>
             </div>
 
             <a href="#" class="btn">Download CV</a>
@@ -65,19 +81,20 @@
     <!--  Section Sobre -->
     <!-- ********************************************** -->
 
-    <section class="about" id="Sobre">
+    <section class="about" id="sobre">
         <div class="about-img">
 
             <img src="./imagens/renata-home.png" alt="img renata">
         </div>
         <div class="about-content">
             <h2 class="heaving">Sobre Mim</h2>
-            <p> Sou formada em Processamento de Dados na Universidade Santa Cruz e cursando Desenvolvimento Mobile.<br>
+            <p> Sou formada em Processamento de Dados na Universidade Santa Cruz e cursando Desenvolvimento Mobile.
                 Atualmente me encontro em uma trilha de transição de carreira, sempre atuei como profissional de
                 recursos humanos com uma vasta experiência em gestão de pessoas e visão estratégica.<br>
-                Sou movida a desafios e percebi que a tecnologia pode me proporcionar a satisfação que tanto busco em
-                minha carreira.<br>
-                Apaixonada por inovações, meu objetivo atual é me desenvolver e crescer na carreira de Desenvolvedora!</p>
+            <p> Sou movida a desafios e percebi que a tecnologia pode me proporcionar a satisfação que tanto busco em
+                minha carreira.
+                Apaixonada por inovações, meu objetivo atual é me desenvolver e crescer na carreira de Desenvolvedora!
+            </p>
 
         </div>
     </section>
@@ -136,75 +153,275 @@
         </div>
     </section>
 
+    <!-- ********************************************** -->
+    <!--  Section Projetos Web-->
+    <!-- ********************************************** -->
 
-    <section class="portifolio" id="portifolio">
+    <section class="projetos" id="projetos">
+
         <div class="portifolio-linha">
-                <div class="linha"></div>
-                <h2> Projetos</h2>
-                <div class="linha"></div>
-            </div>
-         <div class="portifolio-container">
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto1.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto2.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto3.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto4.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto5.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-            </div>
-
-            <div class="portifolio-box">
-                <img src="./imagens/Projeto6.png" alt="" />
-                <div class="portifolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Projetos utilizado JavaScript, HTML e CSS</p>
-                    <a href=""><i class='bx bx-link-external'></i></a>
-                </div>
-
-            </div>
+            <div class="linha"></div>
+            <h2> Projetos</h2>
+            <div class="linha"></div>
         </div>
 
+        <!-- featured project 01 -->
 
-    </section>
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20" class="projeto">
+
+            <!-- left side -->
+            <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+                <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                        <img src="./imagens/aecconstrutora.com.br.jpeg" alt="paytm clone" class="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+                <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">01. A&C
+                    Construtora
+                </h2>
+                <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[20%] lg:right-1/4 text-[#ffffff78]">
+                    Site desenvolvido para uma Construtora , criado usando HTML5, CSS3 e
+                    JQUERY
+                    JavaScript.
+                    <br>
+                    <span class="text-[#a7e8423] font-medium"> Este site é totalmente responsivo</span>
+                </p>
+                <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+                    <ul class="flex gap-4 sm:justify-end text-sm">
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JQUERY</li>
+
+                    </ul>
+                </div>
+                <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+                    <a href="https://www.aecconstrutora.com.br/" target="_blank" class="w-9 h-9">
+                        <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                    <a href="https://github.com/RenataFFC/ConstrutoraAEC" target="_blank" class="w-9 h-9">
+                        <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- featured project 02 -->
+
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20" class="projeto">
+
+            <!-- left side -->
+            <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+                <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                        <img src="./imagens/DeliveryFood.jpeg" alt="paytm clone" class="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+                <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">02. Food
+                    Delivery
+                </h2>
+                <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[20%] lg:right-1/4 text-[#ffffff78]">
+                    Site desenvolvido para uma Construtora , criado usando HTML5, CSS3 e
+                    JavaScript.
+                    <br>
+                    <span class="text-[#a7e8423] font-medium"> Este site é totalmente responsivo</span>
+                </p>
+                <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+                    <ul class="flex gap-4 sm:justify-end text-sm">
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JQUERY</li>
+
+                    </ul>
+                </div>
+                <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+                    <a href="https://renataffc.github.io/Website---Food-Delivery/" target="_blank" class="w-9 h-9">
+                        <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                    <a href="https://github.com/RenataFFC/Website---Food-Delivery" target="_blank" class="w-9 h-9">
+                        <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- featured project 03 -->
+
+        <div class="flex flex-col sm:flex-row sm:gap-12 mt-20" class="projeto">
+
+            <!-- left side -->
+            <div class="mockup-window border border-base-300 sm:w-1/2 h-[300px] order-2	sm:order-none">
+                <div class="featured-project-img-01-div cursor-all-scroll overflow-scroll h-[300px] rounded">
+                    <div class="featured-project-img-01  transition-all	duration-500  ">
+                        <img src="./imagens/DeliveryFood.jpeg" alt="paytm clone" class="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="sm:w-1/2 h-[300px] flex flex-col justify-center order-1 sm:order-none">
+                <h2 class="sm:text-end text-3xl font-bold mb-8 sm:relative sm:right-[10%] lg:right-1/4">02. Food
+                    Delivery
+                </h2>
+                <p
+                    class="bg-[#051830] pl-8 pr-2 py-4 mb-2 rounded shadow-sm sm:relative sm:right-[20%] lg:right-1/4 text-[#ffffff78]">
+                    Site desenvolvido para uma Construtora , criado usando HTML5, CSS3 e
+                    JavaScript.
+                    <br>
+                    <span class="text-[#a7e8423] font-medium"> Este site é totalmente responsivo</span>
+                </p>
+                <div style="font-family: 'Roboto Mono', monospace;" class="sm:relative sm:right-[10%] lg:right-1/4">
+                    <ul class="flex gap-4 sm:justify-end text-sm">
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JQUERY</li>
+
+                    </ul>
+                </div>
+                <div class="flex gap-4 mt-2 sm:justify-end sm:relative sm:right-[10%] lg:right-1/4">
+                    <a href="https://renataffc.github.io/Website---Food-Delivery/" target="_blank" class="w-9 h-9">
+                        <ion-icon name="desktop-outline" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                    <a href="https://github.com/RenataFFC/Website---Food-Delivery" target="_blank" class="w-9 h-9">
+                        <ion-icon name="logo-github" class="w-8 h-8 transition-all hover:text-[a7e842]"></ion-icon>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+</section>
+
+        <!-- ********************************************** -->
+        <!--  Section Demais-->
+        <!-- ********************************************** -->
+
+        <section class="portifolio" id="portifolio">
+
+            <div class="portifolio-linha">
+                <div class="linha"></div>
+                <h2> Demais Projetos </h2>
+                <div class="linha"></div>
+            </div>
+
+            <div class="portifolio-container">
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto1.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto4.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto10.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto8.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto6.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto12.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="./imagens/Projeto13.png" alt="" />
+                    <div class="portifolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Projetos utilizado JavaScript, HTML e CSS</p>
+                        <a href=""><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="contato" id="contato">
+
+            <div class="portifolio-linha">
+                <div class="linha"></div>
+                <h2> Contato</h2>
+                <div class="linha"></div>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/renataFFC"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/renatafernandesctba/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/renata_ffc/"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto: renatactba@hotmail.com "><i class='bx bx-envelope'></i></a>
+            </div>
+        </section>
 
 
 
-    <script src="script.js"></script>
+<footer class="footer">
+
+<div class="footer-text">
+<p>Copyright &copy; 2023 Renata Fernandes | Todos os direitos reservados</p>
+</div>
+
+<div class="footer-iconTop">
+ <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+</footer>
+
+        <script src="./script.js"></script>
 </body>
 
 </html>
