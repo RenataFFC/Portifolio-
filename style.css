@@ -302,16 +302,10 @@ section #projetos {
 
 }
 
-#portifolio {
-    padding: 45px;
-
-
-}
-
 .portifolio {
 
     background: var(--bg-color);
-    padding: 8%;
+    padding: 4%;
 }
 
 .portifolio-linha {
@@ -329,7 +323,7 @@ section #projetos {
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: repeat(3, 8fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 5rem;
 
@@ -346,7 +340,7 @@ section #projetos {
 }
 
 .portifolio-box img {
-    width: 200%;
+    width: 100%;
     transition: all 500s;
 
 }
@@ -363,7 +357,7 @@ section #projetos {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, 0.8), var(--bg-color));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -402,7 +396,7 @@ section #projetos {
 }
 
 .portifolio-layer a i {
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--second-bg-color);
 
 }
@@ -413,11 +407,12 @@ section.contato {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+gap: 5rem;
 }
 
 .footer-text p {
@@ -572,5 +567,22 @@ section.contato {
         margin-bottom: 20px;
 
     }
+
+.footer{
+   flex-wrap: nowrap;
+ gap: 9rem;
+
+
+}
+.footer p{
+   font-size: 1.3rem;
+padding: 10px;
+line-height: 1.5rem;
+}
+
+.footer-iconTop a {
+
+  padding: .3rem;
+}
 
 }
