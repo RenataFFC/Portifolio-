@@ -384,6 +384,10 @@ section #projetos {
     margin: .3rem 0 1rem;
 }
 
+.portifolio-layer h4{
+   font-size: 1.5rem;
+}
+
 
 .portifolio-layer a {
     display: inline-flex;
